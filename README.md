@@ -2,7 +2,7 @@
 c++ examples for libx-msg-im-xsc
 
 
-* 这里提供了一些例子程序, 用于演于[libx-msg-im-xsc](https://github.com/dev5cn/libx-msg-im-xsc)的用法. 
+* 这里提供了一些例子程序, 用于演示[libx-msg-im-xsc](https://github.com/dev5cn/libx-msg-im-xsc)的用法. 
 
     * 一个同时支持`tcp`, `http`, `websocket`多协议接入的并发服务器.
 
