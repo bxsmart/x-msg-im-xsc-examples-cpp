@@ -8,31 +8,31 @@ c++ examples for libx-msg-im-xsc
 
 
 
-* how to build?
+* 编译前准备
 
-    * 准备
+    * gcc 9.2.1 or later, 其实可以不用这么新. 支持c++14即可, 只是CMakeList.txt中使用了`c++17`.
 
-        * gcc 9.2.1 or later, 其实可以不用这么新. `当前的版本`支持c++14即可, 只是CMakeList.txt中使用了`c++17`.
+    * cmake 3.x or later.
 
-        * protobuf-3.5.1
+    * protobuf-3.5.1
 
-        * on fedora 31: `dnf install libuuid-devel`, on ubuntu:  `apt-get install libuuid-devel`
+    * on fedora 31: `dnf install libuuid-devel`, on ubuntu:  `apt-get install libuuid-devel`
 
-        * git clone https://github.com/dev5cn/libmisc-cpp
+    * git clone https://github.com/dev5cn/libmisc-cpp
 
-        * git clone https://github.com/dev5cn/libxsc-cpp
-            
-        * git clone https://github.com/dev5cn/libxsc-proto-cpp
+    * git clone https://github.com/dev5cn/libxsc-cpp
+        
+    * git clone https://github.com/dev5cn/libxsc-proto-cpp
 
-        * git clone https://github.com/dev5cn/libx-msg-im-xsc
+    * git clone https://github.com/dev5cn/libx-msg-im-xsc
 
-        * git clone https://github.com/dev5cn/x-msg-im-xsc-examples-cpp
+    * git clone https://github.com/dev5cn/x-msg-im-xsc-examples-cpp
 
-        * 全部`git clone`后, 得到一个这样的目录结构:
+    * 全部`git clone`后, 得到一个这样的目录结构:
 
-        ```js
-        libmisc-cpp  libx-msg-im-xsc  libxsc-cpp  libxsc-proto-cpp  x-msg-im-xsc-examples-cpp
-        ```
+    ```js
+    libmisc-cpp  libx-msg-im-xsc  libxsc-cpp  libxsc-proto-cpp  x-msg-im-xsc-examples-cpp
+    ```
 
      * 环境变量
 
@@ -43,11 +43,13 @@ c++ examples for libx-msg-im-xsc
     export MAKE_J="-j3"
     ```
 
+* 编译
+
     * `chmod 775 */*.sh`
 
     * 依次进入`libmisc-cpp`, `libxsc-cpp`, `libxsc-proto-cpp`, `libx-msg-im-xsc`, `x-msg-im-xsc-examples-cpp`, 在每个目录下运行`./build.sh`
 
-    * 最后将得到一个可执行程序.
+    * 最后将得到一个可执行程序, 直接启动即可.
     ```js
     [xxx@dev5 x-msg-im-xsc-examples-cpp]$ ldd x-msg-im-xsc-exapmples-cpp 
 	linux-vdso.so.1 (0x00007ffde39ad000)
