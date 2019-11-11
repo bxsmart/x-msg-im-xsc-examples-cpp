@@ -43,7 +43,7 @@ c++ examples for libx-msg-im-xsc
     export MAKE_J="-j3"
     ```
 
-    * chmod 775 */*.sh
+    * `chmod 775 */*.sh`
 
     * 依次进入`libmisc-cpp`, `libxsc-cpp`, `libxsc-proto-cpp`, `libx-msg-im-xsc`, `x-msg-im-xsc-examples-cpp`, 在每个目录下运行`./build.sh`
 
