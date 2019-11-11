@@ -26,7 +26,7 @@ c++ examples for libx-msg-im-xsc
 
         * git clone https://github.com/dev5cn/libx-msg-im-xsc
 
-        * git clone https://github.com/dev5cn/
+        * git clone https://github.com/dev5cn/x-msg-im-xsc-examples-cpp
 
         * 全部`git clone`后, 得到一个这样的目录结构:
 
